@@ -16,6 +16,8 @@
 		2EB7AD63207F58A80044AD21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7AD62207F58A80044AD21 /* main.m */; };
 		2EB7AD6D207F58A80044AD21 /* ZLoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7AD6C207F58A80044AD21 /* ZLoadingViewTests.m */; };
 		2EB7AD78207F58A80044AD21 /* ZLoadingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7AD77207F58A80044AD21 /* ZLoadingViewUITests.m */; };
+		2EB7AD88207F58EF0044AD21 /* ZLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7AD86207F58EF0044AD21 /* ZLoadingView.m */; };
+		2EB7AD8B207F58F30044AD21 /* LoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB7AD89207F58F30044AD21 /* LoadingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		2EB7AD73207F58A80044AD21 /* ZLoadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLoadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB7AD77207F58A80044AD21 /* ZLoadingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLoadingViewUITests.m; sourceTree = "<group>"; };
 		2EB7AD79207F58A80044AD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB7AD86207F58EF0044AD21 /* ZLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLoadingView.m; sourceTree = "<group>"; };
+		2EB7AD87207F58EF0044AD21 /* ZLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLoadingView.h; sourceTree = "<group>"; };
+		2EB7AD89207F58F30044AD21 /* LoadingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingLabel.m; sourceTree = "<group>"; };
+		2EB7AD8A207F58F30044AD21 /* LoadingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		2EB7AD4F207F58A70044AD21 /* ZLoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				2EB7AD85207F58D40044AD21 /* ZLoadingView */,
 				2EB7AD50207F58A70044AD21 /* AppDelegate.h */,
 				2EB7AD51207F58A70044AD21 /* AppDelegate.m */,
 				2EB7AD53207F58A70044AD21 /* ViewController.h */,
@@ -133,6 +140,17 @@
 				2EB7AD79207F58A80044AD21 /* Info.plist */,
 			);
 			path = ZLoadingViewUITests;
+			sourceTree = "<group>";
+		};
+		2EB7AD85207F58D40044AD21 /* ZLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				2EB7AD87207F58EF0044AD21 /* ZLoadingView.h */,
+				2EB7AD86207F58EF0044AD21 /* ZLoadingView.m */,
+				2EB7AD8A207F58F30044AD21 /* LoadingLabel.h */,
+				2EB7AD89207F58F30044AD21 /* LoadingLabel.m */,
+			);
+			path = ZLoadingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +287,8 @@
 				2EB7AD52207F58A70044AD21 /* AppDelegate.m in Sources */,
 				2EB7AD63207F58A80044AD21 /* main.m in Sources */,
 				2EB7AD5B207F58A70044AD21 /* ZLoadingView.xcdatamodeld in Sources */,
+				2EB7AD88207F58EF0044AD21 /* ZLoadingView.m in Sources */,
+				2EB7AD8B207F58F30044AD21 /* LoadingLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
